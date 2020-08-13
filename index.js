@@ -46,6 +46,6 @@ function reduceToAllTrue(sourceArray){
          if (calcAll===false||calcAll===true){
            return calcAll;
          }
-         return Boolean(a)},true)
+         return Boolean(a)},false)
   return newarr;
 }
