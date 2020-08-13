@@ -43,7 +43,7 @@ function reduceToAllTrue(sourceArray){
   
   function reduceToAnyTrue(sourceArray){
    const newarr= sourceArray.reduce(function(calcAll,a){
-         if (calcAll===false||calcAll===true){
+         if (calcAll===true){
            return calcAll;
          }
          return Boolean(a)},false)
