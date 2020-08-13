@@ -37,6 +37,15 @@ function reduceToAllTrue(sourceArray){
          if (calcAll===false){
            return calcAll;
          }
-         return Boolean(a)},true)}
+         return Boolean(a)},true)
+  return newarr;
+}
+  
+  function reduceToAllTrue(sourceArray){
+   const newarr= sourceArray.reduce(function(calcAll,a){
+         if (calcAll===false){
+           return calcAll;
+         }
+         return Boolean(a)},true)
   return newarr;
 }
