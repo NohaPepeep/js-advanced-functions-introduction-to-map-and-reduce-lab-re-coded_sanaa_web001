@@ -41,9 +41,9 @@ function reduceToAllTrue(sourceArray){
   return newarr;
 }
   
-  function reduceToAllTrue(sourceArray){
+  function reduceToAnyTrue(sourceArray){
    const newarr= sourceArray.reduce(function(calcAll,a){
-         if (calcAll===false){
+         if (calcAll===false||calcAll===true){
            return calcAll;
          }
          return Boolean(a)},true)
